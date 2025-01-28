@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 4;
+    line-height: 1.6;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 2;
+    margin: 5;
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+  }
+  
+  header nav ul li {
+    margin: 1
+     10px;
+  }
+  
+  header nav ul li a {
+    color: rgb(108, 183, 226);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: rgb(104, 34, 34);
+    color: #007bff;
+  }
+  
+  .hero, .about, .contact {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(120, 14, 207);
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+    }
+  
+    form input, form textarea {
+      width: 95%;
+    }
+  }
